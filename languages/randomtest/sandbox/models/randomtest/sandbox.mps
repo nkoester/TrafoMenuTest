@@ -18,8 +18,7 @@
         <child id="7506223577308558825" name="exp" index="2220dV" />
       </concept>
       <concept id="7506223577308557683" name="TrafoMenuTest.structure.Inner" flags="ng" index="2220vx">
-        <property id="7506223577308558786" name="internal_property_1" index="2220dg" />
-        <property id="7506223577308570684" name="internal_property_2" index="222daI" />
+        <property id="7506223577308570684" name="can_be_used" index="222daI" />
       </concept>
       <concept id="7506223577308576283" name="TrafoMenuTest.structure.InnerReference" flags="ng" index="222cM9">
         <reference id="7506223577308576284" name="inner" index="222cMe" />
@@ -58,18 +57,15 @@
     </node>
   </node>
   <node concept="2220vx" id="6wFtDbE8VCm">
-    <property role="TrG5h" value="inner1" />
-    <property role="2220dg" value="something" />
     <property role="222daI" value="true" />
+    <property role="TrG5h" value="inner1" />
   </node>
   <node concept="2220vx" id="6wFtDbE8VCn">
-    <property role="TrG5h" value="inner2" />
-    <property role="2220dg" value="somethingelse" />
     <property role="222daI" value="true" />
+    <property role="TrG5h" value="inner2" />
   </node>
   <node concept="2220vx" id="6wFtDbE8XjE">
     <property role="TrG5h" value="inner3" />
-    <property role="2220dg" value="asdf" />
   </node>
 </model>
 

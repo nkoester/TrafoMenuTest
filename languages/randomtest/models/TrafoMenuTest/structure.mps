@@ -48,14 +48,9 @@
     <property role="TrG5h" value="Inner" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyi" id="6wFtDbE8Rn2" role="1TKVEl">
-      <property role="IQ2nx" value="7506223577308558786" />
-      <property role="TrG5h" value="internal_property_1" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="6wFtDbE8UgW" role="1TKVEl">
       <property role="IQ2nx" value="7506223577308570684" />
-      <property role="TrG5h" value="internal_property_2" />
+      <property role="TrG5h" value="can_be_used" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="6wFtDbE8RmY" role="PzmwI">
