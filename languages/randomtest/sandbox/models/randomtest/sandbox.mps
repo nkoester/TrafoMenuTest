@@ -32,26 +32,16 @@
   </registry>
   <node concept="2220dU" id="6wFtDbE8RZg">
     <property role="TrG5h" value="test_sheet" />
-    <node concept="2220dL" id="6wFtDbEacK_" role="2220dV">
-      <node concept="222cM9" id="6wFtDbEacLz" role="3uHU7w">
+    <node concept="2220dL" id="3nR1F$jZHuQ" role="2220dV">
+      <node concept="222cM9" id="3nR1F$jZHv6" role="3uHU7w">
         <ref role="222cMe" node="6wFtDbE8VCm" resolve="inner1" />
       </node>
-      <node concept="2220dL" id="6wFtDbEacJy" role="3uHU7B">
-        <node concept="2220dL" id="6wFtDbEacIJ" role="3uHU7B">
-          <node concept="2220dL" id="6wFtDbEacIf" role="3uHU7B">
-            <node concept="222cM9" id="6wFtDbEa937" role="3uHU7B">
-              <ref role="222cMe" node="6wFtDbE8VCm" resolve="inner1" />
-            </node>
-            <node concept="222cM9" id="6wFtDbEacIw" role="3uHU7w">
-              <ref role="222cMe" node="6wFtDbE8VCm" resolve="inner1" />
-            </node>
-          </node>
-          <node concept="222cM9" id="6wFtDbEacJh" role="3uHU7w">
-            <ref role="222cMe" node="6wFtDbE8VCn" resolve="inner2" />
-          </node>
+      <node concept="2220dL" id="3nR1F$jZHuy" role="3uHU7B">
+        <node concept="222cM9" id="3nR1F$jZHuq" role="3uHU7B">
+          <ref role="222cMe" node="6wFtDbE8VCm" resolve="inner1" />
         </node>
-        <node concept="222cM9" id="6wFtDbEacKi" role="3uHU7w">
-          <ref role="222cMe" node="6wFtDbE8XjE" resolve="inner3" />
+        <node concept="222cM9" id="3nR1F$jZHuF" role="3uHU7w">
+          <ref role="222cMe" node="6wFtDbE8VCn" resolve="inner2" />
         </node>
       </node>
     </node>
