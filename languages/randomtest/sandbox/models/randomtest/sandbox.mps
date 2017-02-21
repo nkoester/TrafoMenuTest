@@ -7,6 +7,9 @@
   <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -32,16 +35,26 @@
   </registry>
   <node concept="2220dU" id="6wFtDbE8RZg">
     <property role="TrG5h" value="test_sheet" />
-    <node concept="2220dL" id="3nR1F$jZHuQ" role="2220dV">
-      <node concept="222cM9" id="3nR1F$jZHv6" role="3uHU7w">
-        <ref role="222cMe" node="6wFtDbE8VCm" resolve="inner1" />
+    <node concept="2220dL" id="3nR1F$k1RjA" role="2220dV">
+      <node concept="3cmrfG" id="3nR1F$k1Rkt" role="3uHU7w">
+        <property role="3cmrfH" value="333" />
       </node>
-      <node concept="2220dL" id="3nR1F$jZHuy" role="3uHU7B">
-        <node concept="222cM9" id="3nR1F$jZHuq" role="3uHU7B">
-          <ref role="222cMe" node="6wFtDbE8VCm" resolve="inner1" />
+      <node concept="2220dL" id="3nR1F$k1QLm" role="3uHU7B">
+        <node concept="2220dL" id="3nR1F$k00YQ" role="3uHU7B">
+          <node concept="2220dL" id="3nR1F$k00Xq" role="3uHU7B">
+            <node concept="222cM9" id="3nR1F$k00zV" role="3uHU7B">
+              <ref role="222cMe" node="6wFtDbE8VCm" resolve="inner1" />
+            </node>
+            <node concept="222cM9" id="3nR1F$k00Yd" role="3uHU7w">
+              <ref role="222cMe" node="6wFtDbE8VCn" resolve="inner2" />
+            </node>
+          </node>
+          <node concept="222cM9" id="3nR1F$k0aP3" role="3uHU7w">
+            <ref role="222cMe" node="6wFtDbE8VCm" resolve="inner1" />
+          </node>
         </node>
-        <node concept="222cM9" id="3nR1F$jZHuF" role="3uHU7w">
-          <ref role="222cMe" node="6wFtDbE8VCn" resolve="inner2" />
+        <node concept="3cmrfG" id="3nR1F$k1QLR" role="3uHU7w">
+          <property role="3cmrfH" value="33" />
         </node>
       </node>
     </node>
