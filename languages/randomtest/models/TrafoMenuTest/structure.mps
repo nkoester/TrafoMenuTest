@@ -94,5 +94,19 @@
       <ref role="20lvS9" node="6wFtDbE8R5N" resolve="Inner" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5J5WH$ODYuw">
+    <property role="EcuMT" value="6612958642568685472" />
+    <property role="TrG5h" value="MyOtherBinaryRel" />
+    <property role="34LRSv" value="+++" />
+    <ref role="1TJDcQ" to="tpee:fJuHJVf" resolve="BinaryOperation" />
+    <node concept="PrWs8" id="5J5WH$ODYzC" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5J5WH$OE6SM">
+    <property role="EcuMT" value="6612958642568719922" />
+    <property role="TrG5h" value="InnerType" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+  </node>
 </model>
 

@@ -17,6 +17,8 @@
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
+      <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
+      <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -63,7 +65,10 @@
       <node concept="3F0ifn" id="6wFtDbE9dZz" role="3EZMnx" />
       <node concept="3F2HdR" id="6wFtDbE8WA4" role="3EZMnx">
         <ref role="1NtTu8" to="97s0:6wFtDbE8RnD" resolve="exp" />
-        <node concept="2iRfu4" id="6wFtDbE8WA6" role="2czzBx" />
+        <node concept="l2Vlx" id="5J5WH$OE1E5" role="2czzBx" />
+        <node concept="pj6Ft" id="5J5WH$OE2th" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
     </node>
   </node>

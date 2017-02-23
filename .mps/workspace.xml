@@ -8,8 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1f53b328-f4b4-45cd-bf48-913eba4690db" name="Default" comment="Add solution as discussed in the mps forums&#10;&#10;link to discussion: https://mps-support.jetbrains.com/hc/en-us/community/posts/208589805--SOLVED-Influence-scoping-on-leftExpression-rightExpression-for-a-concept-that-extendes-BinaryOperation">
       <change type="MODIFICATION" beforePath="$USER_HOME$/git/mps/mpsSecondLevelInstance/languages/SecondLevelInstance/models/SecondLevelInstance/editor.mps" afterPath="$USER_HOME$/git/mps/mpsSecondLevelInstance/languages/SecondLevelInstance/models/SecondLevelInstance/editor.mps" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/git/mps/mpsSecondLevelInstance/languages/SecondLevelInstance/models/SecondLevelInstance/typesystem.mps" afterPath="$USER_HOME$/git/mps/mpsSecondLevelInstance/languages/SecondLevelInstance/models/SecondLevelInstance/typesystem.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/randomtest/models/TrafoMenuTest/constraints.mps" afterPath="$PROJECT_DIR$/languages/randomtest/models/TrafoMenuTest/constraints.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/randomtest/models/TrafoMenuTest/editor.mps" afterPath="$PROJECT_DIR$/languages/randomtest/models/TrafoMenuTest/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/randomtest/models/TrafoMenuTest/structure.mps" afterPath="$PROJECT_DIR$/languages/randomtest/models/TrafoMenuTest/structure.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/randomtest/models/TrafoMenuTest/typesystem.mps" afterPath="$PROJECT_DIR$/languages/randomtest/models/TrafoMenuTest/typesystem.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/randomtest/sandbox/models/randomtest/sandbox.mps" afterPath="$PROJECT_DIR$/languages/randomtest/sandbox/models/randomtest/sandbox.mps" />
     </list>
@@ -28,7 +31,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="daba2628-a839-4bde-8279-1e953f943a14/r:c3d56cf1-7717-42d9-bdbb-16fdb1d123ca(TempModuledaba2628-a839-4bde-8279-1e953f943a14/TempModel_90580004930626)">
+            <model ref="3b700292-42c8-44cd-97c1-a4bf6910f8fe/r:80918f98-926d-45f3-8da6-61816bd708c2(TempModule3b700292-42c8-44cd-97c1-a4bf6910f8fe/TempModel_140460094510359)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -58,9 +61,9 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="3nR1F$k1P1w">
-                <node concept="3balQm" id="3nR1F$k1P1x" role="aymYE" />
-                <node concept="2Clz$F" id="3nR1F$k1P1y" role="aymYO">
+              <node concept="aymSD" id="5J5WH$ODMJq">
+                <node concept="3balQm" id="5J5WH$ODMJr" role="aymYE" />
+                <node concept="2Clz$F" id="5J5WH$ODMJs" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
               </node>
@@ -87,41 +90,242 @@
     </search_options>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_sheet" pinned="false" current-in-tab="true">
-        <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/test_sheet">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="359" />
-                    <property name="caretXRelative" value="28" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
-                      <node node_reference="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/3888584195232462109" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/3888584195232462109" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <splitter split-orientation="vertical" split-proportion="0.5">
+          <split-first>
+            <leaf>
+              <file leaf-file-name="MyOtherBinaryRel" pinned="false" current-in-tab="true">
+                <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/MyOtherBinaryRel">
+                  <provider selected="true" editor-type-id="MPSFileEditor">
+                    <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+                      <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                        <selectionStack>
+                          <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                            <property name="hasNonTrivialSelection" value="false" />
+                            <property name="caretX" value="64" />
+                            <property name="caretXRelative" value="49" />
+                            <property name="sideSelectDirection" value="NONE" />
+                            <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                              <node node_reference="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" />
+                            </cellInfo>
+                          </stackElement>
+                        </selectionStack>
+                        <errorMarkers />
+                        <transactionalProperties />
+                        <foldable />
+                        <restoreAlways />
+                      </memento>
+                      <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                        <selectionStack />
+                        <errorMarkers />
+                        <transactionalProperties />
+                        <foldable />
+                        <restoreAlways />
+                        <enabledHints />
+                      </inspectorMemento>
+                      <node node_ref="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="MyOther" pinned="false" current-in-tab="false">
+                <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.typesystem/MyOther">
+                  <provider selected="true" editor-type-id="MPSFileEditor">
+                    <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+                      <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                        <selectionStack>
+                          <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                            <property name="hasNonTrivialSelection" value="false" />
+                            <property name="caretX" value="223" />
+                            <property name="caretXRelative" value="42" />
+                            <property name="sideSelectDirection" value="NONE" />
+                            <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                              <node node_reference="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568855971" />
+                            </cellInfo>
+                          </stackElement>
+                        </selectionStack>
+                        <errorMarkers />
+                        <transactionalProperties />
+                        <foldable>
+                          <collapsedElement isCollapsed="false">
+                            <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                              <node node_reference="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568638548" />
+                            </cellIdElement>
+                          </collapsedElement>
+                          <collapsedElement isCollapsed="false">
+                            <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                              <node node_reference="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568854327" />
+                            </cellIdElement>
+                          </collapsedElement>
+                        </foldable>
+                        <restoreAlways>
+                          <collapsedElement isCollapsed="false">
+                            <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                              <node node_reference="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568854327" />
+                            </cellIdElement>
+                          </collapsedElement>
+                        </restoreAlways>
+                      </memento>
+                      <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                        <selectionStack />
+                        <errorMarkers />
+                        <transactionalProperties />
+                        <foldable />
+                        <restoreAlways />
+                        <enabledHints />
+                      </inspectorMemento>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="Inner" pinned="false" current-in-tab="false">
+                <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/Inner">
+                  <provider selected="true" editor-type-id="MPSFileEditor">
+                    <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+                      <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                        <selectionStack>
+                          <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                            <property name="hasNonTrivialSelection" value="false" />
+                            <property name="caretX" value="249" />
+                            <property name="caretXRelative" value="38" />
+                            <property name="sideSelectDirection" value="NONE" />
+                            <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                              <node node_reference="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568722089" />
+                            </cellInfo>
+                          </stackElement>
+                        </selectionStack>
+                        <errorMarkers />
+                        <transactionalProperties />
+                        <foldable />
+                        <restoreAlways />
+                      </memento>
+                      <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                        <selectionStack />
+                        <errorMarkers />
+                        <transactionalProperties />
+                        <foldable />
+                        <restoreAlways />
+                        <enabledHints />
+                      </inspectorMemento>
+                      <node node_ref="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568722086" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="MyBinaryRel" pinned="false" current-in-tab="true">
+                <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/MyBinaryRel">
+                  <provider selected="true" editor-type-id="MPSFileEditor">
+                    <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+                      <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                        <selectionStack>
+                          <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                            <property name="hasNonTrivialSelection" value="false" />
+                            <property name="caretX" value="64" />
+                            <property name="caretXRelative" value="49" />
+                            <property name="sideSelectDirection" value="NONE" />
+                            <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                              <node node_reference="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" />
+                            </cellInfo>
+                          </stackElement>
+                        </selectionStack>
+                        <errorMarkers />
+                        <transactionalProperties />
+                        <foldable />
+                        <restoreAlways />
+                      </memento>
+                      <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                        <selectionStack />
+                        <errorMarkers />
+                        <transactionalProperties />
+                        <foldable />
+                        <restoreAlways />
+                        <enabledHints />
+                      </inspectorMemento>
+                      <node node_ref="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="test_sheet" pinned="false" current-in-tab="true">
+            <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/test_sheet">
+              <provider selected="true" editor-type-id="MPSFileEditor">
+                <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+                  <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                    <selectionStack>
+                      <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                        <property name="hasNonTrivialSelection" value="false" />
+                        <property name="caretX" value="207" />
+                        <property name="caretXRelative" value="45" />
+                        <property name="sideSelectDirection" value="NONE" />
+                        <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                          <node node_reference="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/6612958642568742774" />
+                        </cellInfo>
+                      </stackElement>
+                    </selectionStack>
+                    <errorMarkers />
+                    <transactionalProperties />
+                    <foldable />
+                    <restoreAlways />
+                  </memento>
+                  <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                    <selectionStack />
+                    <errorMarkers />
+                    <transactionalProperties />
+                    <foldable />
+                    <restoreAlways />
+                    <enabledHints />
+                  </inspectorMemento>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="inner1" pinned="false" current-in-tab="false">
+            <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/inner1">
+              <provider selected="true" editor-type-id="MPSFileEditor">
+                <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+                  <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                    <selectionStack>
+                      <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                        <property name="hasNonTrivialSelection" value="false" />
+                        <property name="caretX" value="15" />
+                        <property name="caretXRelative" value="0" />
+                        <property name="sideSelectDirection" value="NONE" />
+                        <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                          <node node_reference="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308576278" />
+                        </cellInfo>
+                      </stackElement>
+                    </selectionStack>
+                    <errorMarkers />
+                    <transactionalProperties />
+                    <foldable />
+                    <restoreAlways />
+                  </memento>
+                  <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                    <selectionStack />
+                    <errorMarkers />
+                    <transactionalProperties />
+                    <foldable />
+                    <restoreAlways />
+                    <enabledHints />
+                  </inspectorMemento>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/git/mps/mpsSecondLevelInstance" />
@@ -233,21 +437,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="e4c52df3-96a8-424f-9025-be19dcd5e0e4(TrafoMenuTest)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:1da3b740-18bd-4a32-845c-c959e8265b46(TrafoMenuTest.constraints) in IdeaFile{file:///tmp/TrafoMenuTest/languages/randomtest/models/TrafoMenuTest/constraints.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e4c52df3-96a8-424f-9025-be19dcd5e0e4(TrafoMenuTest)" />
+              <option name="myItemId" value="$PROJECT_DIR$/languages/randomtest/sandbox/TrafoMenuTest.sandbox.msd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,10 +478,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="$PROJECT_DIR$/languages/randomtest/sandbox/TrafoMenuTest.sandbox.msd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -317,6 +503,20 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="r:7bb66d0b-0b16-4959-8fcc-d40470fdb0f4(TrafoMenuTest.intentions) in IdeaFile{file:///tmp/TrafoMenuTest/languages/randomtest/models/intentions.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e4c52df3-96a8-424f-9025-be19dcd5e0e4(TrafoMenuTest)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem) in IdeaFile{file:///tmp/TrafoMenuTest/languages/randomtest/models/TrafoMenuTest/typesystem.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -324,6 +524,24 @@
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e4c52df3-96a8-424f-9025-be19dcd5e0e4(TrafoMenuTest)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:1da3b740-18bd-4a32-845c-c959e8265b46(TrafoMenuTest.constraints) in IdeaFile{file:///tmp/TrafoMenuTest/languages/randomtest/models/TrafoMenuTest/constraints.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e4c52df3-96a8-424f-9025-be19dcd5e0e4(TrafoMenuTest)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,8 +553,8 @@
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
       <pane id="Favorites" />
+      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,7 +620,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1918" y="573" width="1924" height="1181" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902032" sideWeight="0.4871795" order="8" side_tool="false" content_ui="tabs" />
@@ -413,12 +631,12 @@
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.51495725" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32902032" sideWeight="0.517094" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32902032" sideWeight="0.48504272" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32902032" sideWeight="0.48290598" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -427,7 +645,7 @@
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
@@ -456,6 +674,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add solution as discussed in the mps forums&#10;&#10;link to discussion: https://mps-support.jetbrains.com/hc/en-us/community/posts/208589805--SOLVED-Influence-scoping-on-leftExpression-rightExpression-for-a-concept-that-extendes-BinaryOperation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add solution as discussed in the mps forums&#10;&#10;link to discussion: https://mps-support.jetbrains.com/hc/en-us/community/posts/208589805--SOLVED-Influence-scoping-on-leftExpression-rightExpression-for-a-concept-that-extendes-BinaryOperation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/test_sheet">
@@ -518,234 +740,6 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/MyBinaryRel">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="383" />
-                <property name="caretXRelative" value="124" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/MyBinaryRel">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="47" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="emptyPropertiesPlaceHolder" cellNumber="0" isInList="false">
-                  <node node_reference="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308561360" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/test_sheet">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="15" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308561360" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308561360" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/test_sheet">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="15" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308561360" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308561360" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/MyBinaryRel">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="47" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="emptyPropertiesPlaceHolder" cellNumber="0" isInList="false">
-                  <node node_reference="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-          <node node_ref="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/test_sheet">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/test_sheet">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/test_sheet">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="15" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308561360" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
           <inspectorMemento currentlyEditedNode="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/3888584195232319192" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
@@ -1586,38 +1580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/MyBinaryRel">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="47" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="emptyPropertiesPlaceHolder" cellNumber="0" isInList="false">
-                  <node node_reference="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308561360" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/test_sheet">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1889,23 +1851,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/test_sheet">
+    <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/Sheet">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="251" />
+                <property name="caretXRelative" value="38" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:1ef2e31c-d23a-42c3-9acc-a13247399dbd(TrafoMenuTest.editor)/7506223577308558856" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
+            <enabledHints />
           </inspectorMemento>
+          <node node_ref="r:1ef2e31c-d23a-42c3-9acc-a13247399dbd(TrafoMenuTest.editor)/7506223577308558856" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/&lt;no name&gt;[ConceptDeclaration]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="273" />
+                <property name="caretXRelative" value="115" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:1da3b740-18bd-4a32-845c-c959e8265b46(TrafoMenuTest.constraints)/6612958642568685835" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:1da3b740-18bd-4a32-845c-c959e8265b46(TrafoMenuTest.constraints)/6612958642568686941" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1da3b740-18bd-4a32-845c-c959e8265b46(TrafoMenuTest.constraints)/6612958642568685835" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:1da3b740-18bd-4a32-845c-c959e8265b46(TrafoMenuTest.constraints)/6612958642568685835" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/&lt;no name&gt;[ConceptDeclaration]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="70" />
+                <property name="caretXRelative" value="3" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name" cellNumber="0" isInList="false">
+                  <node node_reference="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568719922" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="name" cellNumber="0" isInList="false">
+                <node node_reference="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568719922" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568719922" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568719922" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/inner2">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308576279" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308576279" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/InnerType">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="106" />
+                <property name="caretXRelative" value="63" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_l1c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568719922" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568719922" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568719922" />
         </state>
       </provider>
     </entry>
@@ -1916,11 +2027,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
+                <property name="caretX" value="249" />
+                <property name="caretXRelative" value="38" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308557683" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568722089" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1929,7 +2040,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308561360" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1937,22 +2048,164 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308557683" />
+          <node node_ref="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568722086" />
         </state>
       </provider>
     </entry>
     <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/InnerReference">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="335" />
+                <property name="caretXRelative" value="63" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568908275" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568908275" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568904723" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/inner1">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308576278" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.typesystem/&lt;no name&gt;[OverloadedOpRulesContainer]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="223" />
+                <property name="caretXRelative" value="42" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568855971" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568638548" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568854327" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/6612958642568854327" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://TrafoMenuTest.sandbox/randomtest.sandbox/test_sheet">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="207" />
+                <property name="caretXRelative" value="45" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/6612958642568742774" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/MyBinaryRel">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="103" />
-                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="64" />
+                <property name="caretXRelative" value="49" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ndq0bl_a0" cellNumber="0" isInList="false">
-                  <node node_reference="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/3888584195232041403" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1961,7 +2214,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:668c8ecf-76b4-465e-84ec-2201bd9ba766(randomtest.sandbox)/7506223577308561360" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1969,7 +2222,39 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fa01aa00-598f-4eaf-bb64-d8425e568113(TrafoMenuTest.typesystem)/3888584195232041369" />
+          <node node_ref="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/7506223577308558819" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://TrafoMenuTest/TrafoMenuTest.structure/&lt;no name&gt;[ConceptDeclaration]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="64" />
+                <property name="caretXRelative" value="49" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:9c69701f-3ba9-430f-b19f-40b43081e004(TrafoMenuTest.structure)/6612958642568685472" />
         </state>
       </provider>
     </entry>
